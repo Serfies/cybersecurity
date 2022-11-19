@@ -1,2 +1,2 @@
-# cybersecurity
+# Cybersecurity
 List of cybersecurity references
