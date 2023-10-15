@@ -1,4 +1,4 @@
-# Company Name Cybersecurity Policy
+# Cybersecurity Policy
 
 ## Table of Contents
 1. [Introduction](#introduction)

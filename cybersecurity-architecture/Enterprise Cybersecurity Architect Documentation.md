@@ -30,14 +30,15 @@ As an Enterprise Cybersecurity Architect, the role entails designing and impleme
 - **Encryption Standard**: Encrypting data at rest and in transit.
 
 ## Procedures
-- **Incident Response Procedures**: Step-by-step instructions for managing a cybersecurity incident.
-- **Backup and Recovery Procedures**: Instructions for performing backups and restoring systems.
-- **Patch Management Procedures**: Process for testing, approving, and installing patches.
-- **Change Management Procedures**: Managing changes to IT systems.
+- **Incident Response Procedure**: Step-by-step instructions for managing a cybersecurity incident.
+- **Backup and Recovery Procedure**: Instructions for performing backups and restoring systems.
+- **Patch Management Procedure**: Process for testing, approving, and installing patches.
+- **Change Management Procedure**: Managing changes to IT systems.
+- **Vulnerability Management Procedure**: Managing vulnerabilities across the IT ecosystem.
 
 ## Governance Documents
 - **Cybersecurity Governance Framework**: Governance of cybersecurity within the organization.
-- **Roles and Responsibilities**: Defining cybersecurity roles and responsibilities within the organization.
+- **Cybersecurity Roles and Responsibilities**: Defining cybersecurity roles and responsibilities within the organization.
 - **Cybersecurity Risk Management Framework**: Identifying, assessing, and managing cybersecurity risks.
 - **Compliance Framework**: Ensuring compliance with applicable laws, regulations, and standards.
 
