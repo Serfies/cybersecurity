@@ -8,6 +8,11 @@ Establish and monitor organization risk management strategy, expectations, and p
 - [Enterprise Architecture Principles](#)
 #### Standards
 - [Information Security Management System Standard](#)
+- [Risk Management Standard](#)
+#### Procedures
+- [Risk Management Procedure](#)
+#### Plans
+- [Risk Management Plan](#)
 #### Other
 - [Cybersecurity Roles and Responsibilities](#)
 
@@ -19,13 +24,12 @@ Determine the current cybersecurity risk to the organization.
 - [Information Assurance Policy](#)
 - [Cybersecurity Policy](#)
 - [Data Privacy Policy](#)
-- [Asset Management Policy](#)
 #### Standards
-- [Risk Management Standard](#)
 #### Guidelines
 - [Risk Assessment Guidelines](#)
 #### Procedures
 - [Vulnerability Management Procedure](#)
+- [Asset Management Procedure](#)
 
 ## 3. PROTECT
 Use safeguards to sufficiently mitigate and reduce cybersecurity risk.
@@ -50,18 +54,17 @@ Use safeguards to sufficiently mitigate and reduce cybersecurity risk.
 - [Patch Management Procedure](#)
 - [Change Management Procedure](#)
 - [User Access Review Procedure](#)
+- [Third-party Cyber Risk Management Procedure](#)
 
 ## 4. DETECT
 Find and analyze possible cybersecurity attacks and compromises.
 
 ### Documentation
 #### Policies
-- [Incident Response Policy](#)
 - [Security Monitoring Policy](#)
 #### Guidelines
 - [Anomaly Detection Guidelines](#)
 #### Procedures
-- [Backup and Recovery Procedure](#)
 - [Log Review Procedure](#)
 
 ## 5. RESPOND
@@ -70,6 +73,7 @@ Take action regarding a detected cybersecurity incident.
 ### Documentation
 #### Policies
 - [Communication Policy](#)
+- [Incident Response Policy](#)
 #### Standards
 - [Crisis Management Standard](#)
 #### Guidelines
