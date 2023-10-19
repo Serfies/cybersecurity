@@ -1,36 +1,41 @@
 # NIST Cybersecurity Framework 2.0 Document Mapping
 
-## Mapping table
-THe table below provides insight into the various policies, standards, proceudres, plans and guidelines required to implement the NIST CSF.
+## Governance
+All cybersecurity policies, standards, procedures, plans and guidelines in an organisation should be subject to the organisation's [Cybersecurity Strategy](#cybersecurity-strategy).
 
-| CSF Function | CSF Category | Applicable Documents |
+## Cybersecurity Standard
+The [Cybersecurity Standard](#cybersecurity-standard) maps NIST CSF Functions and Categories to specific controls to implement the CSF in the organisation. The Cybersecurity Standard (also called the Information Security Management System) is supported by a set of important policies, standards, procedures, plans and guidelines mapped to the NIST CSF in the next section.
+
+## Mapping table
+The table below provides insight into the various supporting policies, standards, procedures, plans and guidelines required alongside the Cybersecurity Standard to fully implement the NIST CSF in an organisation.
+
+| CSF Function | CSF Category | Supporting Documents |
 | :--- | :--- | :---: |
-| [GOVERN](govern) | Organizational Context | [1](#) |  |
-|  | Risk Management Strategy |  | Y |
-|  | Cybersecurity Supply Chain Risk Management | Data 6 |
-|  | Roles, Responsibilities, and Authorities | Data 6 |
-|  | Policies, Processes, and Procedures | Data 6 |
-|  | Oversight | Data 6 |
-| IDENTIFY | Asset Management | Data 6 |
-|  | Risk Assessment | Data 6 |
-|  | Improvement | Data 6 |
-| PROTECT | Identity Management, Authentication, and Access Control | Data 6 |
+| [GOVERN](#1-govern) | Organizational Context | [Cybersecurity Governance Document](#cybersecurity-governance-document),<br>[Cybersecurity Strategy](#cybersecurity-strategy) |
+|  | Risk Management Strategy | [Risk Mangement Standard](#risk-management-standard),<br>[Risk Management Procedure](#risk-management-procedure) |
+|  | Cybersecurity Supply Chain Risk Management | [Cybersecurity Standard](#cybersecurity-standard),<br>[Cyber Supply Chain Risk Management Procedure](#cyber-supply-chain-risk-management-procedure),<br>[Risk Mangement Standard](#risk-management-standard) |
+|  | Roles, Responsibilities, and Authorities | [Cybersecurity Roles and Responsibilities](#cybersecurity-roles-and-responsibilities) |
+|  | Policies, Processes, and Procedures | [Risk Mangement Standard](#risk-management-standard)  |
+|  | Oversight | [Cybersecurity Governance Document](#cybersecurity-governance-document),<br>[Cybersecurity Strategy](#cybersecurity-strategy) |
+| [IDENTIFY](#2-identify) | Asset Management | [Asset Management Policy](#asset-management-policy),<br>[Asset Management Procedure](#asset-management-procedure) |
+|  | Risk Assessment | [Risk Management Procedure](#risk-management-procedure),<br>[Vulnerability Management Procedure](#vulnerability-management-procedure) |
+|  | Improvement | [Continuous Improvement Policy](#continuous-improvement-policy) |
+| [PROTECT](#3-protect) | Identity Management, Authentication, and Access Control | Data 6 |
 |  | Awareness and Training | Data 6 |
 |  | Data Security | Data 6 |
 |  | Platform Security | Data 6 |
 |  | Technology Infrastructure Resilience | Data 6 |
-| DETECT | Continuous Monitoring | Data 6 |
+| [DETECT](#4-detect) | Continuous Monitoring | Data 6 |
 |  | Adverse Event Analysis | Data 6 |
-| RESPOND | Incident Management | Data 6 |
+| [RESPOND](#5-respond) | Incident Management | Data 6 |
 |  | Incident Analysis | Data 6 |
 |  | Incident Response Reporting and Communication | Data 6 |
 |  | Incident Mitigation | Data 6 |
-| RECOVER | Incident Recovery Plan Execution |  |  | Y |
+| [RECOVER](#6-recover) | Incident Recovery Plan Execution |  |  | Y |
 |  | Incident Recovery Communication |  |  | Y |
 
 ## NIST Cybersecurity Framework 2.0 Summarised
 
-<a name="govern"></a>
 ### 1. GOVERN
 Set the strategic direction and governance model for cybersecurity. Establish and monitor organization risk management strategy, expectations, and policy.
 
@@ -65,7 +70,50 @@ Recovery actions after an incident, ensuring business continuity. Restore assets
 
 RECOVER supports timely restoration of normal operations to reduce the impact of cybersecurity incidents and enable appropriate communication during recovery efforts. 
 
-### Documentation
+## Documentation Overview
+This section provides an overview of the various document discussed above. Links are provided to a curated set of document templates that can be used as starting point for quickly implementing the NIST CSF in an organisation.
+
+### Cybersecurity Governance Document
+A document that outlines the strategic direction, principles, and accountabilities for cyber security in your organization. This document should include a clear definition of the roles and responsibilities of the board of directors, executive management, chief information security officer (CISO), and other relevant stakeholders.
+
+References:
+- [NZ NCSC Cybersecurity Governance](https://www.ncsc.govt.nz/assets/NCSC-Documents/NCSC-Cyber-Security-Governance.pdf)
+
+### Cybersecurity Strategy
+A cyber security strategy is a crucial document as it aligns cyber security with the wider organizational objectives. It helps to address the relationship between business and cyber security outcomes, which depend on the same people, processes, and technology. The strategy is tailored to the organization’s specific context, including its operating environment. External factors such as regulatory or compliance considerations and internal factors such as insider threats or third-party dependencies can influence an organization’s approach to cyber security.
+
+References:
+- [NZ NCSC Cybersecurity Governance](https://www.ncsc.govt.nz/assets/NCSC-Documents/NCSC-Cyber-Security-Governance.pdf)
+
+### Cybersecurity Standard
+
+### Risk Management Standard
+
+### Risk Management Procedure
+
+### Cyber Supply Chain Risk Management Policy
+References:
+- [NIST Special Publication NIST SP 800-161r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1.pdf)
+
+### Cyber Supply Chain Risk Management Procedure
+
+### Cybersecurity Roles and Responsibilities
+
+### Asset Management Policy
+A document that outlines the principles and guidelines for managing an organization’s IT assets. It provides a framework for the appropriate and effective management of IT equipment (hardware and software) from procurement to disposal. The policy defines responsibilities that relate to the implementation of this policy and is designed to ensure that IT assets are accounted for, deployed, maintained, upgraded, and disposed of when the time comes. It also ensures that IT assets are managed appropriately in a way that is compliant with the organization’s policies and regulatory obligations.
+
+### Asset Management Procedure
+A procedure that ensures an organization's assets are accounted for, deployed, maintained, upgraded, and disposed of when the time comes. It is the process of tracking and managing an organization's IT assets to ensure that every asset is properly used, maintained, upgraded, and disposed of at the end of its lifecycle. The procedure includes creating a detailed inventory of all IT assets, calculating lifecycle costs for all assets in your inventory, tracking the assets throughout their lifecycle, and ensuring that software licensing is in full compliance. The IT asset management process creates a single source of truth when optimizing budgets, supporting lifecycle management, and making decisions that impact the entire organization. It is important to have an IT Asset Management Procedure in place to understand the total cost of ownership and optimize the use of assets.
+
+### Vulnerability Management Procedure
+
+### Continuous Improvement Policy
+A document that outlines the organization’s approach to continuous improvement and provides guidance on how to identify, assess, and manage improvements.
+
+References:
+- [DMTC Continuous Improvement Policy](https://dmtc.com.au/wp-content/uploads/2016/07/Policy-Continuous-Improvement-Policy-.pdf)
+
+
 #### Policies
 - [Cybersecurity Governance Policy](#)
 #### Principles
@@ -115,7 +163,7 @@ RECOVER supports timely restoration of normal operations to reduce the impact of
 - [Patch Management Procedure](#)
 - [Change Management Procedure](#)
 - [User Access Review Procedure](#)
-- [Third-party Cyber Risk Management Procedure](#)
+- [](#)
 #### Plans
 - [Security Awareness and Training Policy](#)
 
