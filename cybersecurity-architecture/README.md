@@ -3,12 +3,59 @@
 Welcome to the Cybersecurity Architecture folder, where we dive deep into the design, implementation, and management of secure IT environments. This repository section focuses on providing resources, insights, and practical examples related to various facets of cybersecurity architecture, supporting both strategic and operational aspects of cybersecurity controls and technologies.
 
 ## Table of Contents
-- [Security Models](#security-models)
-- [Network Security Architecture](#network-security-architecture)
-- [Cloud Security Architecture](#cloud-security-architecture)
-- [Application Security Architecture](#application-security-architecture)
-- [Case Studies](#case-studies)
-- [Contribution Guidelines](#contribution-guidelines)
+1. [Document Hierarchy](#1-governance-documents)
+
+## **1. Document Hierarchy**
+### 1.1. Governance Documents
+- **Purpose**: Establish the overarching direction and framework for organizational operation, defining authority, roles, and responsibilities. Ensures alignment with the organization's mission, vision, and values.
+- **Hierarchy**: Foundational for all other organizational documents. Other documents derive their authority and direction from governance documents.
+
+### 1.2. Architectural Principles
+- **Purpose**: Dictate the design and implementation rules for systems and solutions, ensuring consistency, interoperability, and alignment with organizational goals.
+- **Hierarchy**: Derived from Governance Documents and provide direction for Strategies, Policies, Standards, and Procedures.
+
+### 1.3. Strategies
+- **Purpose**: Outline long-term organizational goals and the methods to achieve them. Direct decision-making and resource allocation towards the mission and objectives.
+- **Hierarchy**: Developed based on Governance Documents and Architectural Principles. They guide the creation of Policies, Plans, and Procedures.
+
+### 1.4. Policies
+- **Purpose**: Provide high-level statements of management intent, dictating expected behaviors and actions within the organization.
+- **Hierarchy**: Informed by Strategies and Governance Documents. Serve as a foundation for the creation of Standards and Procedures.
+
+### 1.5. Standards
+- **Purpose**: Offer specific details on how to meet policy requirements, ensuring consistency across the organization.
+- **Hierarchy**: Derived from Policies. They guide the development of Procedures and are informed by Guidelines.
+
+### 1.6. Procedures
+- **Purpose**: Detail step-by-step instructions for implementing standards and executing specific tasks or activities.
+- **Hierarchy**: Developed based on Standards, with reference to Guidelines, and operate within the framework set by Policies.
+
+### 1.7. Guidelines
+- **Purpose**: Provide non-mandatory best practices and suggestions to achieve desired outcomes.
+- **Hierarchy**: Supportive of all other document types, offering additional clarity and guidance. Especially relevant for Standards and Procedures.
+
+### 1.8. Plans
+- **Purpose**: Lay out specific actions, timelines, and resource allocations to achieve a particular goal or objective.
+- **Hierarchy**: Developed based on Strategies and Policies, guiding teams in implementing organizational projects.
+
+## **2. Templates**
+### 2.1. Governance Documents
+
+### 2.2. Architectural Principles
+- [🔗 Navigate to Security Models](link-to-security-models-folder)
+
+### 2.3. Strategies
+
+### 2.4. Policies
+
+### 2.5. Standards
+
+### 2.6. Procedures
+
+### 2.7. Guidelines
+
+### 2.8. Plans
+
 
 ## Security Models
 Explore foundational and advanced security models, providing theoretical frameworks and practical applications to enhance the security posture of an environment.
@@ -39,9 +86,9 @@ Explore real-world case studies shedding light on the practical application of c
 Your insights and expertise could greatly benefit the community! If you'd like to contribute to the Cybersecurity Architecture section, kindly refer to our [Contribution Guidelines](link-to-contribution-guidelines) before submitting your resources.
 
 ---
+**License:**<br>
+This document and all other works published in this repository is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially, under the following terms:
 
-🛡️ Design and Implement Robust Security Architectures!
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
-For inquiries or recommendations, please [contact us](mailto:your-email@example.com).
-
-👉 [Back to Main Repository](link-to-main-repository)
+To view a copy of this license, visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/) or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
